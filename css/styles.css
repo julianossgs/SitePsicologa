@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-container{
+    background-color: #f5f2dc;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav-main{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;/*dica p/ centralizar um div dentro de outro div*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.nav-brand{
+   font-size: 1.2rem;
+   font-weight: 700;
+   margin-bottom: 5px;
+}
+
+.nav-main a{
+    color: #82b097;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-items{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-items li{
+    margin: 10px;
+}
+
+.menu-items a{
+    font-size: .8rem;
+}
+
+.menu-items a:hover{
+    color: #48996c;
+}
+
+/*Seção inicio*/
+#inicio{
+    background-color: #82b097;
+    color: #fff;
+    padding: 20px;
+   
+}
+
+.start-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-title{
+    text-align: center;
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+    line-height: 23px;
+    font-weight: 700;
+}
+
+.start-subtitle{
+    font-size: 1.1rem;
+    padding: 10px;
+    text-align: center;
+    line-height: 23px;
+}
+
+.start-items{
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.start-items li{
+    margin: 6px;
+    font-size: .9rem;
+}
+
+.start-video{
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.title-video{
+    text-align: center;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+/*Seção terapia*/
+#terapia{
+    background-color: #f5f2dc;
+    color: #82b097;
+    padding: 20px;
+} 
+
+.terapia-title{
+    padding: 8px;
+    text-align: center;
+    
+}
+
+.terapia-title h1{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.terapia-title p{
+    font-size: 1.1rem;
+    line-height: 23px;
+}
+
+.terapia-icons{
+    text-align: center;
+}
+
+.terapia-icons-list{
+    margin: 15px 0 15px 0;
+}
+
+.terapia-icons-list i{
+    font-size: 1.7rem;
+}
+
+.quote{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Seção sobre */
+#sobre{
+    background-color: #82b097;
+  
+}
+
+.sobre-body{
+    margin: 10px;
+    text-align: center;
+}
+
+.sobre-content{
+    color:#f5f2dc;
+    font-size: 1.1rem;
+    line-height: 23px;
+   
+}
+
+.sobre-body p{
+    padding: 5px;
+}
+
+.sobre-img{
+    text-align: center;
+}
+
+/*botão*/
+.sobre-btn{
+    margin-top: 10px;
+}
+
+.btn{
+    width: auto;
+    height: 35px;
+    border-radius: 10px;
+    
+}

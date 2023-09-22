@@ -7,23 +7,23 @@
     background-color: #f5f2dc;
     height: 100px;
     width: 100%;
-    padding: 20px;
+    padding: 15px;
 }
 
 .nav-main{
     width: 100%;
-    max-width: 1024px;
+    max-width: 1000px;
     margin: 0 auto;/*dica p/ centralizar um div dentro de outro div*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
+  
 }
 
 .nav-brand{
-   font-size: 1.2rem;
+   font-size: 1.3rem;
    font-weight: 700;
-   margin-bottom: 5px;
+   margin-bottom: 10px;
 }
 
 .nav-main a{
@@ -43,7 +43,7 @@
 }
 
 .menu-items a{
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 .menu-items a:hover{
@@ -179,4 +179,59 @@
     height: 35px;
     border-radius: 10px;
     
+}
+
+/*Media query*/
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .nav-container{
+        display: flex;
+
+    }
+
+    .nav-main{
+       flex-direction: row;
+       justify-content: space-between;
+    }
+
+    .nav-brand{
+    font-size: 1.5rem;
+       margin-bottom: 0;
+    }
+
+    .menu-items a{
+        font-size: 1rem;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+   
+
+
+    .nav-brand{
+        font-size: 1.6rem;
+      
+    }
+
+    .menu-items a{
+        font-size: 1.1rem;
+    }
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
 }

@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
    
     <!--Bootstrap icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -20,12 +24,12 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 
-    <title>Dr Ana Clara Azevedo Candido</title>
+    <title>Dra Ana Clara Azevedo Candido</title>
 </head>
     <body>
         <header class="nav-container">
             <nav class="nav-main">
-                <a class="nav-brand" href="#">Dr Ana Clara Cândido</a>
+                <a class="nav-brand" href="#">Dra Ana Clara Cândido</a>
                 <ul class="menu-items">
                     <li><a href="#inicio">Ínicio</a></li>
                     
@@ -42,10 +46,18 @@
                     <div>
                         <p class="start-subtitle">Se você procura por suporte para enfrentar suas dificuldades como:</p>
                         <ul class="start-items">
-                            <li>- Ansiedade e Depressão</li>
-                            <li>- Insegurança</li>
-                            <li>- Dificuldade nos relacionamentos</li>
-                            <li>- Baixa autoestima</li>
+                            <li><button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#Modal1">
+                                Ansiedade e Depressão
+                              </button></li>
+                            <li><button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#Modal2">
+                                Insegurança
+                              </button></li>
+                            <li><button id="bt_3" type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#Modal3">
+                                Dificuldades nos relacionamentos
+                              </button></li>
+                            <li><button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#Modal4">
+                                Baixa Autoestima
+                              </button></li>
                         </ul>
                     </div>
                     <div class="start-video">
@@ -53,8 +65,81 @@
                         <iframe width="320" height="250" src="https://www.youtube.com/embed/h12qNmtNEIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
-                
-                
+                <!--Modal 1-->
+                <div class="modal fade modalInicio" id="Modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Ansiedade e Depressão</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao observar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um inglês legível. Muitos pacotes de editoração eletrônica e editores de páginas da web agora usam Lorem Ipsum como modelo de texto padrão, e uma pesquisa por 'lorem ipsum' revelará muitos sites ainda em sua infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes propositalmente (injetando humor e coisas do gênero).
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Fechar</button>
+                          
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <!--Modal 2-->
+                <div class="modal fade modalInicio" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Insegurança</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao observar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um inglês legível. Muitos pacotes de editoração eletrônica e editores de páginas da web agora usam Lorem Ipsum como modelo de texto padrão, e uma pesquisa por 'lorem ipsum' revelará muitos sites ainda em sua infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes propositalmente (injetando humor e coisas do gênero).
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Fechar</button>
+                          
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <!--Modal 3-->
+                <div class="modal fade modalInicio" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Dificuldade nos relacionamentos</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao observar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um inglês legível. Muitos pacotes de editoração eletrônica e editores de páginas da web agora usam Lorem Ipsum como modelo de texto padrão, e uma pesquisa por 'lorem ipsum' revelará muitos sites ainda em sua infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes propositalmente (injetando humor e coisas do gênero).
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Fechar</button>
+                          
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <!--Modal 4-->
+                <div class="modal fade modalInicio" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Baixa Autoestima</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao observar seu layout. O objetivo de usar Lorem Ipsum é que ele tem uma distribuição de letras mais ou menos normal, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça um inglês legível. Muitos pacotes de editoração eletrônica e editores de páginas da web agora usam Lorem Ipsum como modelo de texto padrão, e uma pesquisa por 'lorem ipsum' revelará muitos sites ainda em sua infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes propositalmente (injetando humor e coisas do gênero).
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Fechar</button>
+                          
+                        </div>
+                      </div>
+                    </div>
+                </div>
             </section>
 
             <!--seção terapia-->

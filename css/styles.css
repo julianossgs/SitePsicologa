@@ -218,6 +218,30 @@
     
 }
 
+/* Seção Footer */
+.footer{
+    background-color:#f5f2dc;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-title{
+    color:#48996c;
+    font-size: 1.4rem;
+    margin: 15px 5px;
+}
+
+.social-container i{
+    font-size: 27px;
+    margin: 0 10px 0 10px;
+    color:#48996c;
+}
+
+
+
 /*Media query*/
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 

@@ -87,8 +87,16 @@
 }
 
 .start-items li{
-    margin: 6px;
-    font-size: .9rem;
+    margin: 10px;
+    font-size: .8rem;
+}
+
+#bt_3{
+    height: 58px;
+}
+
+.btn:hover{
+  color: #48996c;
 }
 
 .start-video{
@@ -102,6 +110,35 @@
     font-weight: 700;
 }
 
+/* Css dos modais */
+.modalInicio .modal-content{
+    background-color: #f5f2dc;
+    color: #fff;
+}
+
+.modalInicio .modal-title{
+    color: #48996c;
+    font-weight: 700;
+}
+
+.modalInicio .modal-body{
+    color:#82b097;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+
+.modalInicio .btn:hover{
+    color: #48996c;
+}
+
+.modalInicio .btn:hover{
+    color:#f5f2dc;
+    background-color:#82b097;
+}
+
+
+/*-----------------------------*/
 /*Seção terapia*/
 #terapia{
     background-color: #f5f2dc;
@@ -206,6 +243,27 @@
 
     .menu-items a{
         font-size: 1rem;
+    }
+
+    /* Seção inicio */
+    .start-title{
+        font-size: 1.5rem;
+    }
+
+    .start-subtitle{
+        font-size: 1.4rem;
+        padding: 12px;
+      
+    }
+    
+    .start-items li{
+        margin: 8px;
+        font-size: 1.1rem;
+    }
+
+    .start-video iframe{
+        width: 620px;
+        height: 400px;
     }
 
 }

@@ -172,12 +172,13 @@
 }
 
 .terapia-icons-list i{
-    font-size: 1.7rem;
+    font-size: 1.9rem;
 }
 
 .quote{
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 /* Seção sobre */
@@ -288,6 +289,10 @@
     .start-video iframe{
         width: 620px;
         height: 400px;
+    }
+
+    .terapia-title h1{
+        font-size: 1.5rem;
     }
 
 }
